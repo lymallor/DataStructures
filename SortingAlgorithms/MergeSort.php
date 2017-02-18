@@ -12,7 +12,7 @@
  * Here is PHP implementation consisting of two functions: divide and conquer
  *
  +-----------------------------+----------------------------+
- | Class	                   | Sorting algorithm          |
+ | Class                       | Sorting algorithm          |
  | Data structure              | Array                      |
  | Worst-case performance      | O(n log n)                 |
  | Best-case performance       | O(n log n) typical,        |
