@@ -7,17 +7,18 @@
  *    After this partitioning, the pivot is in its final position. This is called the partition operation.
  * 3. Recursively apply the above steps to the sub-array of elements with smaller values and separately to the sub-array of elements with greater values.
  *
+ * Quick sort is a comparison sort, meaning that it can sort items of any type for which a "less-than" relation (formally, a total order) is defined.
  * Here is PHP implementation for Quick sort
  *
- * +-----------------------------+-----------------------------------------+
- * | Class                       | Sorting algorithm                       |
- * | Data structure              | Array                                   |
- * | Worst-case performance      | O(n2)                                   |
- * | Best-case performance       | O(n log n) (simple partition),          |
- * |                             | O(n) three-way partition and equal keys |
- * | Average performance         | O(n log n)                              |
- * | Worst-case space complexity | O(n) auxiliary                          |
- * +-----------------------------+-----------------------------------------+
+ +-----------------------------+-----------------------------------------+
+ | Class                       | Sorting algorithm                       |
+ | Data structure              | Array                                   |
+ | Worst-case performance      | O(n2)                                   |
+ | Best-case performance       | O(n log n) (simple partition),          |
+ |                             | O(n) three-way partition and equal keys |
+ | Average performance         | O(n log n)                              |
+ | Worst-case space complexity | O(n) auxiliary                          |
+ +-----------------------------+-----------------------------------------+
  *
  */
 
